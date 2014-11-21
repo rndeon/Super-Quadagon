@@ -2,7 +2,7 @@
 #include <Adafruit_GFX.h>
 #include <Max72xxPanel.h>
 
-int pinCS = 10; // Attach CS to this pin, DIN to MOSI and CLK to SCK (cf http://arduino.cc/en/Reference/SPI )
+int pinCS = 4; // Attach CS to this pin, DIN to MOSI and CLK to SCK (cf http://arduino.cc/en/Reference/SPI )
 int numberOfHorizontalDisplays = 1;
 int numberOfVerticalDisplays = 1;
 
@@ -12,8 +12,8 @@ int holey=0;
 int playerPosition=0;
 int playerx=2;
 int playery=2;
-int buttonleft=7;
-int buttonright=6;
+int buttonleft=6;
+int buttonright=7;
 int buttonReset=5;
 long wallInterval = 500;
 long wallIntervalLevelMod = 20;
